@@ -1,0 +1,4 @@
+include COPYING.txt cigal.sh cigalgui.sh MANIFEST.in Makefile
+recursive-include examples *.fas *.cigal
+recursive-include ui *.ui
+recursive-include ttf *.ttf

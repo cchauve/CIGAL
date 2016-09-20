@@ -1,0 +1,222 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>ClustImgDia</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ClustImgDia</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>124</width>
+            <height>121</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Cluster Image</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout7</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout6</cstring>
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget" row="0" column="1">
+                            <property name="name">
+                                <cstring>layout5</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>s1ImgLbl</cstring>
+                                    </property>
+                                    <property name="pixmap">
+                                        <pixmap>image0</pixmap>
+                                    </property>
+                                    <property name="scaledContents">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer4</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>21</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>s1NameLbl</cstring>
+                            </property>
+                            <property name="text">
+                                <string>...</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>s2NameLbl</cstring>
+                            </property>
+                            <property name="text">
+                                <string>...</string>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget" row="1" column="1">
+                            <property name="name">
+                                <cstring>layout4</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel">
+                                    <property name="name">
+                                        <cstring>s2ImgLbl</cstring>
+                                    </property>
+                                    <property name="pixmap">
+                                        <pixmap>image0</pixmap>
+                                    </property>
+                                    <property name="scaledContents">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer5</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>21</width>
+                                            <height>20</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                    </grid>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer14</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>90</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <spacer>
+            <property name="name">
+                <cstring>spacer21</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout11</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer7</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>81</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushButton12</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;OK</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+O</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1033">89504e470d0a1a0a0000000d4948445200000017000000170806000000e02ad4a0000003d04944415448899d954b6c545518c77fe7dccb30edf4c56326a5d56235c416a23635daae048d8d0b3046b06adac66a4c8c0b64a1ee088a0b534420a924c8d2ee48c092425786408c02550cf86a1bd2d4a185d26a9ff3643af7de735cdc79743a17359ecdbde7e4dcdff9befff7ffce1517aedcd18614788d65cbc1b61d6c5b13892d03d0bdbbb10c4878edd75a17cc4d430a76b4d400a000db02a5c1b235c99485957648db8ac9a90895157efafa47e3ddbb1beb370637cfcccd4ea43ca3ca0c59747ae62904985220a5c094ee36bfcfe0e9276ae8eb1f0dcfcd4e54ff13b8082e7b7b31a40b96020c43e25b63609aae6c81521fd5c100dbb604e9eb1f0d030f016b014f5df3f0c387211cc67cf515004ab7d421847b90c8d424506252556ef0606d052d4d35d90336013e2fb8b83434a5b39af3e22eb87d0766a6617e81a585144a692c47717af0f7fba6ff5ef793f5c0ada282ae9ca8f383c8f5eb61711100c39468cbc110825dcf3700e0388ac9a928695ba1b5e6f2d51180266012d713c57005c8f23288e75d26002104a031a560d9728825d228ad3124282d10aedc9e9ae7e05a818ac5510e68edda512dbbd1d94a114f5aa4d236b6a528f19b2895f1b5778bb8c16535cfe693f5f92703f7ff68e538f763dc737d767a3c1fb965b911afac494ffbbfc37bdacb3cd7435dab0a2a3229da8e269bef89bd82ca80bb6e648ceb28f0fb2054098fd54365ddeb50f5142c5d2332798aaa3d6e8405f02c3871cf226bddb526393840b012d618104b424529044a43b0ae151ed907e35f1098bb98db9b6b2281db95c9945d7098941049c0ce038aa939985e00a5c030c076c0b692101d863f4e4274d89daf86835bc8d5974dc00f1d87147cbf9d777a15137fc25f51b06df8350cd3f371d277cfc0ad23a4ef9e6176295fe09c2c42402aa532ef797fbdd603d184a4ad19f4b864df978a8183929d074029c5571f485a1e5d24e05f2465c1621cea56c3b5064715341800efef81863ab870034c03c63a24dffe0627f6c2a5cf246f1e555c3c2409ad830de56ea645b2280d4a69148597fe5b6d70f62a0cdd846b63f0e929e87a0e9a1e86675bb6727abfe4f208bc710436856ad9df9787e7224fa755c6e71aadf2f0c11fe0d8d7eefbc14ee87d176a37c24f63303034c2f1f3f0423324d3f0f2c75334d679c0a521f061a0b446ad80072b5c69e6a36e5d2209f8e63a1c1f80d64648de83323f746e876d9b0b2535a529387af23b2c471514f25cb8999ef632763c0ed51be0e66d3876161662f0522b7cd4e1faffed36b7a10225d0f0008ccfe4e122a3fb3340152baea1ad1fc6fa873ff76eedff32425dbfe46045ffd260e7cfceff2667c6dfdf7f8c9175dfdf850000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>pushButton12</sender>
+        <signal>clicked()</signal>
+        <receiver>ClustImgDia</receiver>
+        <slot>accept()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
